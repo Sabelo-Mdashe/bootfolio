@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#landing {
+  background-image: url(./Images/apple.gif);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#contacts {
+  background-image: url(./Images/earth.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightskyblue;
+}
